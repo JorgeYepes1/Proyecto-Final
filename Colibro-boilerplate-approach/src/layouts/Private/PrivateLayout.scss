@@ -1,0 +1,15 @@
+@import "./Header/Header.scss";
+@import "../../components/Breadcrumb/Breadcrumb.scss";
+
+.private-content-layout {
+   /*  padding: 0 30px; */
+}
+
+.private-container-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin-bottom: 30px;
+    padding: 20px; */
+}

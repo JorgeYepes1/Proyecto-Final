@@ -1,0 +1,21 @@
+.private-header-layout {
+    background: linear-gradient(180deg, #54bec5 0%, #425f70 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-top: 7vh;
+        font-size: 4vw;
+        background: -webkit-linear-gradient(#EDB25A, #F3D2A1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Reem kufi;
+    }
+    img{
+        position: absolute;
+        width: 15vw;
+        height: 30vh;
+        right: 5vw;
+        top: -3vh;
+    }
+}

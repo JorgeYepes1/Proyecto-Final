@@ -1,0 +1,18 @@
+.private-breadcrumb-layout {
+    margin: 16px 0
+}
+
+// @Override
+.ant-breadcrumb {
+    color: $primary-color-placeholder;
+}
+
+// @Override
+.ant-breadcrumb > span:last-child {
+    color: $primary-color;
+}
+
+// @Override
+.ant-breadcrumb-separator {
+    color: $primary-color;
+}

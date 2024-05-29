@@ -1,0 +1,62 @@
+.sceneHome{
+    background: #77D0CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .divTitle{
+        display: flex;
+        justify-content: space-between;
+        width: 65vw;
+        margin-bottom: -20vh;
+        p{
+            margin-top: 26vh;
+            align-self: center;
+            font-size: 8vw  ;
+            font-family: Reem kufi;
+        }
+        img{
+            width: 30vw;
+            height: 60vh;
+        }
+
+    }
+    .divQuestions{
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        margin-bottom: -20vh;
+        p{
+            text-align: center;
+            width: 30vw;
+            margin-top: 26vh;
+            font-size: 3vw  ;
+            font-family: Reem kufi;
+        }
+    }
+    .divText{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        margin-bottom: -20vh;
+        p{
+            text-align: center;
+            width: 40vw;
+            margin-top: 26vh;
+            font-size: 2vw  ;
+            font-family: Reem kufi;
+        }
+    }
+    .divColabText{
+        p{
+            text-align: center;
+            width: 40vw;
+            margin-top: 26vh;
+            font-size: 2vw  ;
+            font-family: Reem kufi;
+        }
+    }
+    .divLoginButton{
+        margin-bottom: 5vh;
+    }
+}

@@ -1,0 +1,44 @@
+.sceneHistoryDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    img {
+        width: 30vw;
+    }
+    .divData {
+        text-align: center;
+        .divTitleAuthor {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            .ptitle {
+                font-size: 3vw;
+            }
+            .pauthor {
+                font-size: 1.3vw;
+                color: '#c4c4c4';
+                margin-left: 10vw;
+                margin-top: 5vh;
+            }
+        }
+        .pdesc {
+            font-size: 2vw;
+        }
+        .div3Childs{
+            display: flex;
+            
+            justify-content: space-between;
+            width: 90vw;
+            p{
+                font-size: 2.8vw;
+            }
+            .pBook{
+                font-size: 2vw;
+                color: "#c4c4c4";
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.inputDiv {
+    .label {
+        margin-bottom: 0.7vh;
+        color: rgb(117, 26, 26);
+        font-size: 3vw;
+    }
+    .divInput{
+        margin-top: 1.5vh;
+    }
+    .inputHeader {
+        height: 5vh;
+        width: 20vw;
+        border: #EDB25A solid 1px;
+        border-radius: 15px;
+        padding-left: 1vw;
+        background-color: #F3D2A1;
+        font-size: 2vw;
+    }
+    .inputHeader:focus{
+        outline: none;
+    }
+    .inputLabel {
+        border-radius: 8px;
+        border-width: 0px;
+        box-shadow: 0px 4px 10px 3px rgb(194, 189, 189);
+        font-size: 2vw;
+        padding-left: 3.5vw;
+        padding-right: 3.5vw;
+    }
+    .textArea {
+        border-radius: 8px;
+        border-width: thin;
+        border-color: "#CDCDCD";
+        height: 25vh;
+        width: 41vw;
+        font-size: 2vw;
+    }
+    .iconEye {
+        color: #ababab;
+        font-size: 2vw;
+        position: relative;
+        bottom: 6vh;
+        left: 31vw;
+    }
+    .iconEmail {
+        color: #ababab;
+        font-size: 2vw;
+        position: relative;
+        bottom: 6vh;
+        left: 1vw;
+    }
+    .icon {
+        font-size: 1.5vw;
+        position: relative;
+        right: 2.3vw;
+        top: -0.4vh;
+    }
+}
